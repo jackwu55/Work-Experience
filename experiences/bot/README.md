@@ -189,7 +189,7 @@ public class countResponseTime {
 本功能整合第三方語音合成服務（如 Google Cloud Speech），可將系統內指定文字轉換為語音播放，並以 .wav 音訊格式回傳至前端，實現即時語音回饋。
 
 ## 語音播放觸發（JavaScript）
-
+```
 $(document).on('click', '.btnTts', function() {
     $(this).button('loading'); // 顯示載入動畫
 
@@ -207,10 +207,10 @@ $(document).on('click', '.btnTts', function() {
         });
     });
 });
-
+```
 
 ## 後端：產生語音檔並回傳網址（Java）
-
+```
 public static String synthesizeTextAndReturnUrl(Tenant tenant, String text) {
     String fileName = synthesizeTextAndReturnFilename(tenant, text);
     
@@ -232,10 +232,10 @@ public static String synthesizeTextAndReturnUrl(Tenant tenant, String text) {
 
     return null;
 }
-
+```
 
 ## 語音檔產生邏輯（語系與語速配置）
-
+```
 public static String synthesizeTextAndReturnFilename(Tenant tenant, String text) {
     String[] ttsSetting = TTSService.getDefaultSetting("zh_TW");
     String speakingRate = "default";
@@ -258,7 +258,7 @@ public static String synthesizeTextAndReturnFilename(Tenant tenant, String text)
 
     return generatedFilename; // 回傳語音檔案名稱（不含副檔名）
 }
-
+```
 ## 專業守則與保密義務
 以上展示僅為部分功能節錄，完整專案內容因應業務規範與職業保密責任未能公開，但均為實際上線功能
 本人始終遵守職業倫理與保密義務，嚴格管控客戶資料與商業機密。  
