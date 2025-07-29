@@ -88,8 +88,8 @@
 本專案使用 Markdown 方式完整撰寫所有展示內容：  
 你可直接瀏覽以下 `.md` 檔案獲取各模組功能與程式邏輯：
 
-- [`HospitalSystemFeatures.md`](./HospitalSystemFeatures.md)
-- [`WorkExperience_BotAndScript.md`](./WorkExperience_BotAndScript.md)
+- [`HospitalSystemFeatures.md`](./experiences/hospital/HospitalSystemFeatures.md)
+- [`WorkExperience_BotAndScript.md`](./experiences/bot/WorkExperience_BotAndScript.md)
 - [`README.md`](./README.md)
 
 ---
