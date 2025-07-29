@@ -13,6 +13,16 @@
 本頁面彙整本人 4～5 年軟體開發經驗，涵蓋醫療資訊系統、政府與企業專案開發、SAP 整合與雲端服務應用等範疇。  
 主要技術專長為 Java、Shell Script、自動化工具與跨系統整合，所有技術範例均已整理於本頁面與子頁面中（以 Markdown 形式記錄，無附程式碼檔案）。
 
+## 🧩 技術專長
+
+- **後端開發**：Java (Spring, JSP), SAP ABAP, Azure Function
+- **資料庫設計與調校**：MS SQL、MySQL、Stored Procedure 優化
+- **系統整合與自動化**：Batch Script、Shell Script、Tomcat、CI/CD 操作流程
+- **API串接與外部服務應用**：Google Cloud Speech API、SAP Integration API
+- **前端技術**：HTML, JavaScript, jQuery, CSS
+- **文件輸出與檔案處理**：iText PDF 產生、SMB 檔案傳輸、檔案備份與檢查
+- **環境維運與伺服器管理**：Linux、Windows Server、排程與日誌分析
+
 ---
 
 ## 📌 展示說明
@@ -27,20 +37,32 @@
 
 ### 1. 資旅軟體開發有限公司（2023/4 ~ 2024/3）
 
-- SAP Integration API 與 Azure Function 開發
-- Hybris 功能增修、Stored Procedure 優化  
+> 負責 SAP 與 Azure 平台相關開發與整合，處理商業邏輯與系統串接需求。
+
+- SAP 程式更新與修正（Stored Procedure 優化）
+- 開發 Azure Function 與 SAP Integration API 串接
+- Hybris 系統功能增修與維護 
 🛠 `#Java #Spring #SAP #AzureFunction #SQL`
 
 ### 2. 碩網（2021/9 ~ 2023/2）
 
-- 國稅局/電力業機器人平台開發（TTS、SST、UI 優化）
-- 自動化 Shell 工具、Tomcat log 統計、檔案校驗  
+> 參與政府、企業與日本客戶專案，負責前後端整合、資料串接、自動化流程設計與維運。
+
+- Robot 對話平台功能開發（TTS、SST、搜尋、稽催、滿意度填寫）
+- 自動化工具開發（log 分析、MD5 驗證、Shell 腳本）
+- Server 壓力測試與問題追蹤
+- 批次資料處理與格式匯出（ODS/XLS/PDF）
 🛠 `#Java #Batch #GoogleCloudSpeech #LogAnalysis`
 
 ### 3. 高雄榮民總醫院（2018/10 ~ 2021/4）
 
-- 精神科病歷系統與報表模組開發
-- 醫療影像上傳與合格率優化（70% → 90%）  
+> 擔任醫療單位核心系統開發與維運角色，跨科室合作實作臨床報告、病歷整合與上傳批次作業。
+
+- 精神科病歷、病程系統設計與調閱功能
+- 心理、職能、社工報告電子化，整合電子病歷
+- 中醫藥囑查詢系統、藥師排班模組
+- 醫療影像批次上傳程式重構（合格率由 65~75% 提升至穩定 90%）
+- 研究計畫系統移轉與伺服器管理
 🛠 `#Java #醫療資訊 #PDF匯出 #SMB儲存`
 
 ---
